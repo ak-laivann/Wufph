@@ -1,0 +1,15 @@
+
+.instagram {
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    background-image: linear-gradient(315deg , pink, purple, violet);
+    margin: 20px 20px;
+    color: greenyellow;
+    box-shadow: 0 6px 12px whitesmoke;
+    border: 1px solid pink;
+}
+
+button:active {
+    transform: scale(0.95);
+}
