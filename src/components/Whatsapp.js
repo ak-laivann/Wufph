@@ -1,7 +1,7 @@
 
 import React, { useState } from "react";
 import './Whatsapp.css';
-import Whatsapp_Notification from './Whatsapp_Notification';
+import WhatsappNotification from './WhatsappNotification';
 
 const Whatsapp = () => {
 
@@ -10,7 +10,7 @@ const Whatsapp = () => {
     return (
         <div>
             <button className="whatsapp" onClick={() => setWapp(!wapp)}>Whatsapp</button>
-            { wapp && <Whatsapp_Notification /> }
+            { wapp && <WhatsappNotification /> }
         </div>
     );
 };

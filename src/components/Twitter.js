@@ -1,7 +1,7 @@
 
 import React, { useState } from "react";
 import './Twitter.css';
-import Twitter_Notification from './Twitter_Notification';
+import TwitterNotification from './TwitterNotification';
 
 const Twitter = () => {
 
@@ -10,7 +10,7 @@ const Twitter = () => {
     return (
         <div>
             <button className="twitter" onClick={() => setTweet(!tweet)}>Twitter</button>
-            {tweet && <Twitter_Notification />}
+            {tweet && <TwitterNotification />}
         </div>
     );
 };

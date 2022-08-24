@@ -1,7 +1,7 @@
 
 import React, { useState } from "react";
 import './Insta.css';
-import Insta_Notification from './Insta_Notification';
+import InstaNotification from './InstaNotification';
 
 const Instagram = () => {
 
@@ -10,7 +10,7 @@ const Instagram = () => {
     return (
         <div>
             <button className="instagram" onClick={()=>setIg(!ig)}>Instagram</button>
-            { ig && <Insta_Notification />}
+            { ig && <InstaNotification />}
 
         </div>
     );

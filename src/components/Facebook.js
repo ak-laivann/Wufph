@@ -1,7 +1,7 @@
 
 import React, { useState } from "react";
 import './Facebook.css';
-import Facebook_Notification from "./Facebook_Notification";
+import FacebookNotification from "./FacebookNotification";
 
 const Facebook = () => {
 
@@ -11,7 +11,7 @@ const Facebook = () => {
     return (
         <div>
             <button className="facebook" onClick={() => setShow(!show)} >Facebook</button>
-            { show && <Facebook_Notification />}
+            { show && <FacebookNotification />}
             {/* <Facebook_Notification isVisible={show} /> */}
         </div>
     );

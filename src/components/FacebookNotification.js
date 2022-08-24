@@ -1,7 +1,7 @@
 import React from "react";
-import './Facebook_Notification.css';
+import './FacebookNotification.css';
 
-const Facebook_Notification = () => {
+const FacebookNotification = () => {
   return (
     <div  className="fbpopup">
         <img src="https://cdn-icons-png.flaticon.com/512/124/124010.png"/><span><p>Dunder Mifflin has joined a community in Scranton</p></span>
@@ -9,4 +9,4 @@ const Facebook_Notification = () => {
   );
 };
 
-export default Facebook_Notification;
+export default FacebookNotification;

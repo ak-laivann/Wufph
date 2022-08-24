@@ -1,7 +1,7 @@
 
 import React, { useState } from "react";
 import './Wufph.css';
-import Wufph_Notification from './Wufph_Notification';
+import WufphNotification from './WufphNotification';
 
 const Wufph = () => {
 
@@ -9,7 +9,7 @@ const Wufph = () => {
     return (
         <div className="noice">
             <button className="wufph" onClick={()=> setAll(!all)}>Wufph</button>
-            { all && <Wufph_Notification /> }
+            { all && <WufphNotification /> }
         </div>
     );
 };

@@ -1,18 +1,18 @@
 import React from "react";
-import Facebook_Notification from './Facebook_Notification';
-import Whatsapp_Notification from "./Whatsapp_Notification";
-import Twitter_Notification from "./Twitter_Notification";
-import Insta_Notification from "./Insta_Notification";
+import FacebookNotification from './FacebookNotification';
+import WhatsappNotification from "./WhatsappNotification";
+import TwitterNotification from "./TwitterNotification";
+import InstaNotification from "./InstaNotification";
 
-const Wufph_Notification = () => {
+const WufphNotification = () => {
   return (
     <div  className="wupopup">
-        <Facebook_Notification />
-        <Insta_Notification />
-        <Twitter_Notification />
-        <Whatsapp_Notification />
+        <FacebookNotification />
+        <InstaNotification />
+        <TwitterNotification />
+        <WhatsappNotification />
     </div>
   );
 };
 
-export default Wufph_Notification;
+export default WufphNotification;
